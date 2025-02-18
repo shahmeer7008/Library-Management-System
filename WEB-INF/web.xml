@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+         http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" 
+         version="3.0">
+
+    <display-name>Library Management System</display-name>
+    
+    <servlet>
+        <servlet-name>AddReview</servlet-name>
+        <servlet-class>AddReview</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddReview</servlet-name>
+        <url-pattern>/AddReview</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ApproveRejectRequestServlet</servlet-name>
+        <servlet-class>ApproveRejectRequestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ApproveRejectRequestServlet</servlet-name>
+        <url-pattern>/ApproveRejectRequestServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Delete</servlet-name>
+        <servlet-class>Delete</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Delete</servlet-name>
+        <url-pattern>/Delete</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Insert</servlet-name>
+        <servlet-class>Insert</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Insert</servlet-name>
+        <url-pattern>/Insert</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>librarian</servlet-name>
+        <servlet-class>librarian</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>librarian</servlet-name>
+        <url-pattern>/librarian</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>logout</servlet-name>
+        <servlet-class>logout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>logout</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>RequestBorrow</servlet-name>
+        <servlet-class>RequestBorrow</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RequestBorrow</servlet-name>
+        <url-pattern>/RequestBorrow</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>SignUp</servlet-name>
+        <servlet-class>SignUp</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SignUp</servlet-name>
+        <url-pattern>/SignUp</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Update</servlet-name>
+        <servlet-class>Update</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Update</servlet-name>
+        <url-pattern>/Update</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>viewBooks</servlet-name>
+        <servlet-class>viewBooks</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>viewBooks</servlet-name>
+        <url-pattern>/viewBooks</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>viewHistory</servlet-name>
+        <servlet-class>viewHistory</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>viewHistory</servlet-name>
+        <url-pattern>/viewHistory</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ViewReviews</servlet-name>
+        <servlet-class>ViewReviews</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewReviews</servlet-name>
+        <url-pattern>/ViewReviews</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>viewStatus</servlet-name>
+        <servlet-class>viewStatus</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>viewStatus</servlet-name>
+        <url-pattern>/viewStatus</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>visitor</servlet-name>
+        <servlet-class>visitor</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>visitor</servlet-name>
+        <url-pattern>/visitor</url-pattern>
+    </servlet-mapping>
+
+</web-app>
